@@ -13,5 +13,5 @@ push: encrypt
 	git commit -m "Secret commit."
 	git push origin master
 clean:
-	rm data.enc.*
+	-rm data.enc.* data.tar
 
