@@ -12,6 +12,8 @@ push: encrypt
 	git add .
 	git commit -m "Secret commit."
 	git push origin master
+decrypt:
+	cat data.enc.* | keybase decrypt | tar xzf -
 clean:
 	-rm data.enc.* data.tar
 
