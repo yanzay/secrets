@@ -1,5 +1,5 @@
 # secrets
-my secrets, encoded
+my secrets, encrypted
 
 ## Usage
 
